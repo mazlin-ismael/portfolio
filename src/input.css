@@ -2,12 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-#skills-section {
+#skills-section-mobile {
     margin-top: 104px;
 }
 
 @media (min-width:1024px) {
-    #skills-section {
+    #skills-section-desktop {
         margin-top: 120px;
+        height: calc(100vh - 120px * 2);
     }
 }
