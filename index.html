@@ -10,7 +10,7 @@
 </head>
 <body class="h-full w-full relative bg-slate-800">
 	<!-- header -->
-	<header class="bg-slate-600 fixed top-0 w-screen p-8 lg:p-12 flex justify-between">
+	<header class="bg-slate-600 fixed top-0 w-screen p-8 lg:p-12 flex justify-between z-10">
 		<div class="flex items-center">Ismael Mazlin</div>
 		<div class="hidden lg:flex flex-grow">
 			<div class="flex justify-end w-4/5 gap-20 justify-end-end">
@@ -39,7 +39,7 @@
 	</header>
 
 	<!-- nav -->
-	<nav class="bg-slate-400 fixed top-0 right-0 h-screen w-3/5 flex flex-col hidden lg:hidden">
+	<nav class="bg-slate-400 fixed top-0 right-0 h-screen w-3/5 flex flex-col hidden lg:hidden z-10">
 		<div class="p-8 flex justify-end">
 			<!-- x mark icon -->
 			<svg id="x-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-10">
@@ -292,7 +292,8 @@
 		<h2 class="text-2xl">Projects</h2>
 	</div>
 
-
+	<!-- maybe change dimensions slides -->
+	 <!-- projects section mobile tablet (< 1024px) -->
 	<section id="projects-mobile-section" class="w-11/12 mt-4 p-8 lg:hidden">
 		<div class="w-full h-full lg:flex lg:justify-center">
 			<!-- Swiper -->
@@ -553,6 +554,7 @@
 		</div>
 	</section>
 
+	<!-- projects section laptop desktop (>= 1024px) -->
 	<section class="hidden h-screen w-11/12 lg:block">
 		<div class="w-full h-full flex items-center justify-center">
 			<div class="swiper-desktop w-1/4 h-2/3 overflow-visible">
@@ -812,6 +814,56 @@
   
 		</div>
 	</section>
+
+	<!-- contact me -->
+	<section class="w-11/12 p-8">
+		<div class="flex justify-center flex-col items-center">
+			<h2 class="text-4xl text-center mb-4 text-white">Contact</h2>
+			<form class="w-full lg:w-2/5 flex justify-center items-center flex-col gap-2" action="">
+				<div class="flex w-full gap-4 sm:flex-row flex-col items-center">
+					<input class="border-2 bg-transparent sm:w-1/2 w-full pl-2 h-12 rounded-md" placeholder="Enter your mail" type="email" name="" id="">
+					<input class="border-2 bg-transparent sm:w-1/2 w-full pl-2 h-12 rounded-md" placeholder="Enter your name" type="email" name="" id="">
+				</div>
+				<textarea class="border-2 bg-transparent w-full h-52 rounded-md" name="" id=""></textarea>
+				<button class="w-44 border-2 p-3 text-white mt-4 rounded-md" type="submit">Contact me</button>
+			</form>
+		</div>
+	</section>
+
+	<!-- newsletter -->
+	<section class="w-11/12 flex justify-center items-center p-8">
+		<div class="w-2/3 lg:w-2/5 flex flex-col items-center justify-center">
+			<div class="text-white text-2xl mb-4 text-center">Stay informed about new projects</div>
+			<input class="border-2 bg-transparent w-1/2 w-full pl-2 h-12 rounded-md" placeholder="Enter your mail" type="email" name="" id="">
+			<button class="w-44 p-3 border-2 text-white mt-4 rounded-md" type="submit">Subscribe</button>
+		</div>
+	</section>
+
+	<!-- rights -->
+	<div class="w-11/12 mt-8 p-8">
+		<div class="text-white flex items-center justify-center gap-2">
+			<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+				<path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
+			  </svg>
+			  <div>mazlin.ismael@gmail.com</div>			  
+		</div>
+		<div class="text-center sm:flex items-center justify-between border-t border-gray-400 mt-4 py-6">
+			<p class="text-white">© 2024 Ismaël Mazlin. All rights reserved.</p>
+			<ul class="flex items-center gap-10 justify-center mt-4 sm:mt-0">
+				<li><a class="text-white" target="_blank" href="https://instagram.com/greatstackdev">GitHub</a></li>
+				<li><a class="text-white" target="_blank" href="https://github.com/mazlin-ismael">Linkedin</a></li>
+			</ul>
+		</div>
+	</div>
+
+	<!-- line to follwo progress project -->
+	<div class="h-full w-1/12 fixed right-0 top-0 flex justify-center items-center">
+		<svg width="2" height="100%" xmlns="http://www.w3.org/2000/svg">
+			<line x1="1" y1="0" x2="1" y2="100%" stroke="black" stroke-width="2" />
+		  </svg>
+		  
+	</div>
+
 
 	
 	<script src="./src/main.js"></script>
