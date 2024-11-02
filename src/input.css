@@ -6,6 +6,10 @@
     margin-top: 104px;
 }
 
+#projects-mobile-section {
+    height: calc(100vh - 104px);
+}
+
 @media (min-width:1024px) {
     #skills-section-desktop {
         margin-top: 120px;
