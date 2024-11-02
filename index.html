@@ -293,10 +293,10 @@
 	</div>
 
 
-	<section id="projects-mobile-section" class="w-11/12 mt-4 p-8">
-		<div class="w-full h-full">
+	<section id="projects-mobile-section" class="w-11/12 mt-4 p-8 lg:hidden">
+		<div class="w-full h-full lg:flex lg:justify-center">
 			<!-- Swiper -->
-			<div class="md:h-full w-11/12 h-5/6 swiper p-2">
+			<div class="swiper-mobile md:h-full w-11/12 h-5/6 p-2 lg:w-1/2 lg:h-1/3">
 				<div class="swiper-wrapper">
 					<div class="swiper-slide border-4 border-white bg-gray-500 relative">
 						<div class="w-full h-5/6 flex flex-col overflow-scroll">
@@ -550,6 +550,266 @@
 					</div>
 				</div>
 			</div>
+		</div>
+	</section>
+
+	<section class="hidden h-screen w-11/12 lg:block">
+		<div class="w-full h-full flex items-center justify-center">
+			<div class="swiper-desktop w-1/4 h-2/3 overflow-visible">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide border-4 border-white bg-gray-500 relative overflow-hidden">
+						<div class="w-full h-5/6 flex flex-col overflow-scroll">
+							<div>
+								<video class=" overflow-hidden" controls>
+									<source src="./src/160767-822213540_small.mp4" type="video/mp4">
+								</video>
+							</div>
+							<h3 class="text-center p-4">TETRIS OPTIMIZER</h3>
+							<div class="px-2 flex flex-col gap-2">				
+								<div>Technologies</div>
+								<div class="flex items-center justify-center">
+									<div class="px-2 bg-sky-600 border-l-2 border-y-2 border-white rounded-tl rounded-bl">GO</div>
+									<div class="px-2 bg-yellow-300 border-y-2 border-white">JS</div>
+									<div class="px-2 bg-yellow-600 border-r-2 border-y-2 border-white rounded-tr rounded-br">THREE.JS</div>
+								</div>
+								<div class="my-2">Solo</div>
+							</div>
+							<div class="flex gap-4 items-center px-2 mb-3">
+								<div>difficulty</div>
+								<div class="bg-red-700 p-1 rounded-lg"> hard</div>
+							</div>
+							<div class="flex gap-4 items-center px-2">
+								<div>time</div>
+								<div class="bg-green-700 p-1 rounded-lg text-center">short / 1 week</div>
+							</div>
+							<div class="flex flex-col px-2 mt-4 gap-2">
+								<div>tags</div>
+								<div class="flex flex-wrap gap-1 p-2  rounded-md">
+									<div class="border p-1 bg-indigo-800 rounded-md">graphs</div>
+									<div class="border p-1 bg-indigo-800 rounded-md">backtracking</div>
+									<div class="border p-1 bg-indigo-800 rounded-md">bfs</div>
+									<div class="border p-1 bg-indigo-800 rounded-md">edmonds-Karp</div>
+									<div class="border p-1 bg-indigo-800 rounded-md">algo</div>
+									<div class="border p-1 bg-indigo-800 rounded-md">3d vizualizer</div>
+									<div class="border p-1 bg-indigo-800 rounded-md">ants moving real time</div>
+								</div>
+							</div>
+						</div>
+						<div class="flex items-center px-2 justify-center gap-4 absolute bottom-4 left-1/2 -translate-x-1/2">
+							<div class="text-black whitespace-nowrap">
+								See More...
+							</div>
+							<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="black" class="size-8">
+								<path stroke-linecap="round" stroke-linejoin="round" d="M3.75 3.75v4.5m0-4.5h4.5m-4.5 0L9 9M3.75 20.25v-4.5m0 4.5h4.5m-4.5 0L9 15M20.25 3.75h-4.5m4.5 0v4.5m0-4.5L15 9m5.25 11.25h-4.5m4.5 0v-4.5m0 4.5L15 15" />
+							</svg>
+							  
+						</div>
+						<div></div>
+						<div></div>
+					</div>
+					<div class="swiper-slide border-4 border-white bg-gray-500 relative overflow-hidden">
+						<div class="w-full h-5/6 flex flex-col overflow-scroll">
+							<div>
+								<video class=" overflow-hidden" controls>
+									<source src="./src/160767-822213540_small.mp4" type="video/mp4">
+								</video>
+							</div>
+							<h3 class="text-center p-4">TETRIS OPTIMIZER</h3>
+							<div class="px-2 flex flex-col gap-2">				
+								<div>Technologies</div>
+								<div class="flex items-center justify-center">
+									<div class="px-2 bg-sky-600 border-l-2 border-y-2 border-white rounded-tl rounded-bl">GO</div>
+									<div class="px-2 bg-yellow-300 border-y-2 border-white">JS</div>
+									<div class="px-2 bg-yellow-600 border-r-2 border-y-2 border-white rounded-tr rounded-br">THREE.JS</div>
+								</div>
+								<div class="my-2">Solo</div>
+							</div>
+							<div class="flex gap-4 items-center px-2 mb-3">
+								<div>difficulty</div>
+								<div class="bg-red-700 p-1 rounded-lg"> hard</div>
+							</div>
+							<div class="flex gap-4 items-center px-2">
+								<div>time</div>
+								<div class="bg-green-700 p-1 rounded-lg text-center">short / 1 week</div>
+							</div>
+							<div class="flex flex-col px-2 mt-4 gap-2">
+								<div>tags</div>
+								<div class="flex flex-wrap gap-1 p-2  rounded-md">
+									<div class="border p-1 bg-indigo-800 rounded-md">graphs</div>
+									<div class="border p-1 bg-indigo-800 rounded-md">backtracking</div>
+									<div class="border p-1 bg-indigo-800 rounded-md">bfs</div>
+									<div class="border p-1 bg-indigo-800 rounded-md">edmonds-Karp</div>
+									<div class="border p-1 bg-indigo-800 rounded-md">algo</div>
+									<div class="border p-1 bg-indigo-800 rounded-md">3d vizualizer</div>
+									<div class="border p-1 bg-indigo-800 rounded-md">ants moving real time</div>
+								</div>
+							</div>
+						</div>
+						<div class="flex items-center px-2 justify-center gap-4 absolute bottom-4 left-1/2 -translate-x-1/2">
+							<div class="text-black whitespace-nowrap">
+								See More...
+							</div>
+							<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="black" class="size-8">
+								<path stroke-linecap="round" stroke-linejoin="round" d="M3.75 3.75v4.5m0-4.5h4.5m-4.5 0L9 9M3.75 20.25v-4.5m0 4.5h4.5m-4.5 0L9 15M20.25 3.75h-4.5m4.5 0v4.5m0-4.5L15 9m5.25 11.25h-4.5m4.5 0v-4.5m0 4.5L15 15" />
+							</svg>
+							  
+						</div>
+						<div></div>
+						<div></div>
+					</div>
+					<div class="swiper-slide border-4 border-white bg-gray-500 relative overflow-hidden">
+						<div class="w-full h-5/6 flex flex-col overflow-scroll">
+							<div>
+								<video class=" overflow-hidden" controls>
+									<source src="./src/160767-822213540_small.mp4" type="video/mp4">
+								</video>
+							</div>
+							<h3 class="text-center p-4">TETRIS OPTIMIZER</h3>
+							<div class="px-2 flex flex-col gap-2">				
+								<div>Technologies</div>
+								<div class="flex items-center justify-center">
+									<div class="px-2 bg-sky-600 border-l-2 border-y-2 border-white rounded-tl rounded-bl">GO</div>
+									<div class="px-2 bg-yellow-300 border-y-2 border-white">JS</div>
+									<div class="px-2 bg-yellow-600 border-r-2 border-y-2 border-white rounded-tr rounded-br">THREE.JS</div>
+								</div>
+								<div class="my-2">Solo</div>
+							</div>
+							<div class="flex gap-4 items-center px-2 mb-3">
+								<div>difficulty</div>
+								<div class="bg-red-700 p-1 rounded-lg"> hard</div>
+							</div>
+							<div class="flex gap-4 items-center px-2">
+								<div>time</div>
+								<div class="bg-green-700 p-1 rounded-lg text-center">short / 1 week</div>
+							</div>
+							<div class="flex flex-col px-2 mt-4 gap-2">
+								<div>tags</div>
+								<div class="flex flex-wrap gap-1 p-2  rounded-md">
+									<div class="border p-1 bg-indigo-800 rounded-md">graphs</div>
+									<div class="border p-1 bg-indigo-800 rounded-md">backtracking</div>
+									<div class="border p-1 bg-indigo-800 rounded-md">bfs</div>
+									<div class="border p-1 bg-indigo-800 rounded-md">edmonds-Karp</div>
+									<div class="border p-1 bg-indigo-800 rounded-md">algo</div>
+									<div class="border p-1 bg-indigo-800 rounded-md">3d vizualizer</div>
+									<div class="border p-1 bg-indigo-800 rounded-md">ants moving real time</div>
+								</div>
+							</div>
+						</div>
+						<div class="flex items-center px-2 justify-center gap-4 absolute bottom-4 left-1/2 -translate-x-1/2">
+							<div class="text-black whitespace-nowrap">
+								See More...
+							</div>
+							<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="black" class="size-8">
+								<path stroke-linecap="round" stroke-linejoin="round" d="M3.75 3.75v4.5m0-4.5h4.5m-4.5 0L9 9M3.75 20.25v-4.5m0 4.5h4.5m-4.5 0L9 15M20.25 3.75h-4.5m4.5 0v4.5m0-4.5L15 9m5.25 11.25h-4.5m4.5 0v-4.5m0 4.5L15 15" />
+							</svg>
+							  
+						</div>
+						<div></div>
+						<div></div>
+					</div>
+					<div class="swiper-slide border-4 border-white bg-gray-500 relative overflow-hidden">
+						<div class="w-full h-5/6 flex flex-col overflow-scroll">
+							<div>
+								<video class=" overflow-hidden" controls>
+									<source src="./src/160767-822213540_small.mp4" type="video/mp4">
+								</video>
+							</div>
+							<h3 class="text-center p-4">TETRIS OPTIMIZER</h3>
+							<div class="px-2 flex flex-col gap-2">				
+								<div>Technologies</div>
+								<div class="flex items-center justify-center">
+									<div class="px-2 bg-sky-600 border-l-2 border-y-2 border-white rounded-tl rounded-bl">GO</div>
+									<div class="px-2 bg-yellow-300 border-y-2 border-white">JS</div>
+									<div class="px-2 bg-yellow-600 border-r-2 border-y-2 border-white rounded-tr rounded-br">THREE.JS</div>
+								</div>
+								<div class="my-2">Solo</div>
+							</div>
+							<div class="flex gap-4 items-center px-2 mb-3">
+								<div>difficulty</div>
+								<div class="bg-red-700 p-1 rounded-lg"> hard</div>
+							</div>
+							<div class="flex gap-4 items-center px-2">
+								<div>time</div>
+								<div class="bg-green-700 p-1 rounded-lg text-center">short / 1 week</div>
+							</div>
+							<div class="flex flex-col px-2 mt-4 gap-2">
+								<div>tags</div>
+								<div class="flex flex-wrap gap-1 p-2  rounded-md">
+									<div class="border p-1 bg-indigo-800 rounded-md">graphs</div>
+									<div class="border p-1 bg-indigo-800 rounded-md">backtracking</div>
+									<div class="border p-1 bg-indigo-800 rounded-md">bfs</div>
+									<div class="border p-1 bg-indigo-800 rounded-md">edmonds-Karp</div>
+									<div class="border p-1 bg-indigo-800 rounded-md">algo</div>
+									<div class="border p-1 bg-indigo-800 rounded-md">3d vizualizer</div>
+									<div class="border p-1 bg-indigo-800 rounded-md">ants moving real time</div>
+								</div>
+							</div>
+						</div>
+						<div class="flex items-center px-2 justify-center gap-4 absolute bottom-4 left-1/2 -translate-x-1/2">
+							<div class="text-black whitespace-nowrap">
+								See More...
+							</div>
+							<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="black" class="size-8">
+								<path stroke-linecap="round" stroke-linejoin="round" d="M3.75 3.75v4.5m0-4.5h4.5m-4.5 0L9 9M3.75 20.25v-4.5m0 4.5h4.5m-4.5 0L9 15M20.25 3.75h-4.5m4.5 0v4.5m0-4.5L15 9m5.25 11.25h-4.5m4.5 0v-4.5m0 4.5L15 15" />
+							</svg>
+							  
+						</div>
+						<div></div>
+						<div></div>
+					</div>
+					<div class="swiper-slide border-4 border-white bg-gray-500 relative overflow-hidden">
+						<div class="w-full h-5/6 flex flex-col overflow-scroll">
+							<div>
+								<video class=" overflow-hidden" controls>
+									<source src="./src/160767-822213540_small.mp4" type="video/mp4">
+								</video>
+							</div>
+							<h3 class="text-center p-4">TETRIS OPTIMIZER</h3>
+							<div class="px-2 flex flex-col gap-2">				
+								<div>Technologies</div>
+								<div class="flex items-center justify-center">
+									<div class="px-2 bg-sky-600 border-l-2 border-y-2 border-white rounded-tl rounded-bl">GO</div>
+									<div class="px-2 bg-yellow-300 border-y-2 border-white">JS</div>
+									<div class="px-2 bg-yellow-600 border-r-2 border-y-2 border-white rounded-tr rounded-br">THREE.JS</div>
+								</div>
+								<div class="my-2">Solo</div>
+							</div>
+							<div class="flex gap-4 items-center px-2 mb-3">
+								<div>difficulty</div>
+								<div class="bg-red-700 p-1 rounded-lg"> hard</div>
+							</div>
+							<div class="flex gap-4 items-center px-2">
+								<div>time</div>
+								<div class="bg-green-700 p-1 rounded-lg text-center">short / 1 week</div>
+							</div>
+							<div class="flex flex-col px-2 mt-4 gap-2">
+								<div>tags</div>
+								<div class="flex flex-wrap gap-1 p-2  rounded-md">
+									<div class="border p-1 bg-indigo-800 rounded-md">graphs</div>
+									<div class="border p-1 bg-indigo-800 rounded-md">backtracking</div>
+									<div class="border p-1 bg-indigo-800 rounded-md">bfs</div>
+									<div class="border p-1 bg-indigo-800 rounded-md">edmonds-Karp</div>
+									<div class="border p-1 bg-indigo-800 rounded-md">algo</div>
+									<div class="border p-1 bg-indigo-800 rounded-md">3d vizualizer</div>
+									<div class="border p-1 bg-indigo-800 rounded-md">ants moving real time</div>
+								</div>
+							</div>
+						</div>
+						<div class="flex items-center px-2 justify-center gap-4 absolute bottom-4 left-1/2 -translate-x-1/2">
+							<div class="text-black whitespace-nowrap">
+								See More...
+							</div>
+							<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="black" class="size-8">
+								<path stroke-linecap="round" stroke-linejoin="round" d="M3.75 3.75v4.5m0-4.5h4.5m-4.5 0L9 9M3.75 20.25v-4.5m0 4.5h4.5m-4.5 0L9 15M20.25 3.75h-4.5m4.5 0v4.5m0-4.5L15 9m5.25 11.25h-4.5m4.5 0v-4.5m0 4.5L15 15" />
+							</svg>
+							  
+						</div>
+						<div></div>
+						<div></div>
+					</div>
+				</div>
+			</div>
+  
 		</div>
 	</section>
 
