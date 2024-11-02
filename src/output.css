@@ -1182,6 +1182,14 @@ video {
     height: 4rem;
   }
 
+  .md\:h-full {
+    height: 100%;
+  }
+
+  .md\:w-full {
+    width: 100%;
+  }
+
   .md\:flex-row {
     flex-direction: row;
   }

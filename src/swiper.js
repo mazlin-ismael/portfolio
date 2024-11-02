@@ -4,6 +4,5 @@ document.addEventListener('DOMContentLoaded', function () {
   var swiper = new Swiper(".swiper", {
     effect: "cards",
     grabCursor: true,
-    // loop: "infinite"
   });
 });
