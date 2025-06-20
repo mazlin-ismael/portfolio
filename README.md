@@ -33,6 +33,7 @@ This repository contains a beautiful, responsive personal portfolio built using 
 
    ```bash
    npm install
+   npm install swiper
    ```
 
 3. **Start the development server:**

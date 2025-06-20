@@ -5,5 +5,9 @@ import tailwindcss from "@tailwindcss/vite";
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: "/pedrotech-portfolio",
+  base: "/imazlin-portfolio",
+  server: {
+    allowedHosts: ["401e-80-12-92-49.ngrok-free.app"]
+  }
+  
 });

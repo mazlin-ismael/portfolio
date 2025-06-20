@@ -1,4 +1,5 @@
 import { RevealOnScroll } from "../RevealOnScroll";
+import ProfilePicture from '../../assets/profile-picture.webp';
 
 export const Home = () => {
   return (
@@ -8,14 +9,27 @@ export const Home = () => {
     >
       <RevealOnScroll>
         <div className="text-center z-10 px-4">
+          <img
+            src={ProfilePicture}
+            alt="Ismaël Mazlin"
+            className="w-48 h-48 rounded-full mx-auto mb-6"
+          />
+
           <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent leading-right">
-            Hi, I'm Pedro Tech
+            Ismaël Mazlin
           </h1>
 
           <p className="tex-gray-400 text-lg mb-8 max-w-lg mx-auto">
-            I’m a full-stack developer who loves crafting clean, scalable web
+            {/* Je suis un full-stack/Backend developer who loves crafting clean, scalable web
             applications. My goal is to build solutions that offer both
-            exceptional performance and a delightful user experience.
+            exceptional performance and a delightful user experience. */}
+            Développeur Full-Stack/Backend à la recherche d'une alternance.
+            Je maîtrise divers langages et outils de programmation, 
+            et m'adapte facilement à de nouvelles technologies. 
+            {/* J'apprécie le travail en équipe, 
+             tout en étant capable de travailler de manière autonome. 
+             J'ai l'esprit critique et cherche toujours à trouver des solutions innovantes pour mener à bien mes projets. */}
+
           </p>
           <div className="flex justify-center space-x-4">
             <a
