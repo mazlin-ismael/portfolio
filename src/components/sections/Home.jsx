@@ -23,9 +23,8 @@ export const Home = () => {
             {/* Je suis un full-stack/Backend developer who loves crafting clean, scalable web
             applications. My goal is to build solutions that offer both
             exceptional performance and a delightful user experience. */}
-            Développeur Full-Stack/Backend à la recherche d'une alternance.
-            Je maîtrise divers langages et outils de programmation, 
-            et m'adapte facilement à de nouvelles technologies. 
+            I master various programming languages and tools, and adapt quickly to new technologies.
+            I have a strong interest in AI projects and enjoy working on innovative solutions involving artificial intelligence
             {/* J'apprécie le travail en équipe, 
              tout en étant capable de travailler de manière autonome. 
              J'ai l'esprit critique et cherche toujours à trouver des solutions innovantes pour mener à bien mes projets. */}
